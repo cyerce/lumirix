@@ -1,0 +1,34 @@
+type: Drill
+name: "Venus Drill"
+size: 4
+drillTime: 100
+hasPower: true
+tier: 6
+category: production
+research: blast-drill
+itemCapacity: 50
+drawRim: true
+updateEffect: pulverizeRed
+updateEffectChance: 0.03
+drillEffect: mineHuge
+rotateSpeed: 12
+warmupSpeed: 2
+requirements: [
+	copper/250
+	lead/150
+	silicon/350
+	stainless-steel/150
+	thorium/350
+	aluminum/150
+	electrum/100
+]
+liquidBoostIntensity: 2.3
+consumes: {
+	power: 25
+	liquid: {
+		liquid: water
+		amount: 0.2
+		booster: true
+		optional: true
+	}
+}
