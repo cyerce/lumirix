@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: "Electrum Smelter"
+description: "It's a small machine that uses argentum and aurrum to make electrum."
+size: 2
+health: 160
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		}
+		{
+		type: DrawFlame
+		}
+	]
+}
+itemCapacity: 10
+category: crafting
+research: silicon-smelter
+consumes: {
+	power: 0.5
+	items: {
+		items: [
+			argentum/1
+			aurrum/2
+		]
+	}
+}
+outputItem: electrum/1
+craftTime: 40
+requirements: [
+	copper/30
+	lead/25
+]

@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: "Sapphire Crystalizer"
+description: "Crystalizes Corundum into Sapphires"
+size: 2
+health: 395
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		}
+		{
+		type: DrawFlame
+		}
+	]
+}
+itemCapacity: 20
+category: crafting
+research: kiln
+consumes: {
+	power: 4
+	items: {
+		items: [
+			corundum/4
+			ferrite/1
+			titanium/1
+			metaglass/4
+		]
+	}
+}
+outputItem: sapphire-glass/1
+craftTime: 90
+requirements: [
+	metaglass/80
+	titanium/120
+	silicon/60
+	plastanium/35
+]

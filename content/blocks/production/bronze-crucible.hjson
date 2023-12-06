@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: "Bronze Crucible"
+description: "It's a big machine that uses stannum and copper to make bronze."
+size: 3
+health: 395
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		}
+		{
+		type: DrawFlame
+		}
+	]
+}
+itemCapacity: 30
+category: crafting
+research: silicon-crucible
+consumes: {
+	power: 4
+	items: {
+		items: [
+			stannum/4
+			copper/6
+			pyratite/1
+		]
+	}
+}
+outputItem: bronze/8
+craftTime: 90
+requirements: [
+	metaglass/80
+	cobalt/120
+	steel/60
+	plastanium/35
+]

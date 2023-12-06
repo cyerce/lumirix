@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: "Graphite Blaster"
+description: "Sometimes you need MORE and have less space."
+size: 4
+health: 640
+category: crafting
+itemCapacity: 40
+research: multi-press
+consumes: {
+	items: {
+		items: [
+			coal/16
+			pyratite/2
+		]
+	}
+	power: 4
+}
+craftTime: 120
+outputItem: graphite/14
+requirements: [
+	titanium/180
+	silicon/160
+	plastanium/160
+	thorium/120
+]

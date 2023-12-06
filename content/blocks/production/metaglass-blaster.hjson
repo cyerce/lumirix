@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: "Metaglass Blaster"
+description: "Sometimes you need MORE and have less space."
+size: 4
+health: 640
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		}
+		{
+		type: DrawFlame
+		}
+	]
+}
+category: crafting
+itemCapacity: 35
+research: kiln
+consumes: {
+	items: {
+		items: [
+			sand/14
+			lead/14
+			blast-compound/4
+		]
+	}
+	power: 4
+}
+craftTime: 120
+outputItem: metaglass/14
+requirements: [
+	titanium/180
+	silicon/160
+	plastanium/160
+	thorium/120
+]
