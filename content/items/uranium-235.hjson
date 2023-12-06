@@ -1,0 +1,5 @@
+type: item
+name: Uranium 235
+description: "Rare isotope of Uranium"
+cost: 1
+color: 54d67d

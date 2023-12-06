@@ -1,0 +1,15 @@
+type: ParticleWeather
+name: "Blizzard"
+particleRegion: particle
+sizeMax: 17
+sizeMin: 6
+density: 480
+sound: windhowl
+soundvol: 1
+drawNoise: true
+noiseColor: d9edff
+useWindVector: true
+baseSpeed: 12
+opacityMultiplier: 0.9
+force: 0.2
+color: d9edff

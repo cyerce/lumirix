@@ -1,0 +1,5 @@
+type: item
+name: Uranium 238
+description: "Common isotope of Uranium"
+cost: 1
+color: 6aa95e

@@ -1,0 +1,6 @@
+type: item
+name: Uranium
+description: Highly radioactive and good for weaponry.
+cost: 1
+color: e8d174
+radioactivity: 1

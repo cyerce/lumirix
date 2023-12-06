@@ -1,0 +1,5 @@
+type: item
+name: "Palladium"
+description: "A strong and rare metal found in earth's crust."
+cost: 1
+color: f19583

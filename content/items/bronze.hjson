@@ -1,0 +1,5 @@
+type: item
+name: "Bronze"
+description: "An alloy of Stannum and Copper"
+cost: 1
+color: eac2a9

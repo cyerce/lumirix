@@ -1,0 +1,44 @@
+type: flying
+flying: true
+lowAltitude: true
+controller: BuilderAI
+name: "Epsilon"
+isEnemy: false
+mineSpeed: 12
+mineTier: 4
+buildSpeed: 3
+drag: 0.05
+speed: 3.55
+rotateSpeed: 19
+accel: 0.11
+itemCapacity: 110
+health: 780
+engineOffset: 6
+hitSize: 13
+weapons: [
+	{
+	name: small-mount-weapon
+	top: false
+	reload: 35
+	x: 1
+	y: 2
+	shoot: {
+		shots: 6
+		shotDelay: 2
+		spread: 20
+	}
+	inaccuracy: 3
+	ejectEffect: casing1
+	bullet: {
+		width: 7
+		height: 12
+		lifetime: 40
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		buildingDamageMultiplier: 0.01
+		homingPower: 0.5
+		speed: 10
+		damage: 15
+		}
+	}
+]

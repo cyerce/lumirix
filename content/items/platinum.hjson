@@ -1,0 +1,5 @@
+type: item
+name: "Platinum"
+description: "A rare precious metal often referred to as white gold."
+cost: 1
+color: ffffff

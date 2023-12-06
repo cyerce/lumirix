@@ -1,0 +1,5 @@
+type: item
+name: Lithium
+description: "A moderately common metal in earth's crust."
+cost: 1
+color: cb8ebf

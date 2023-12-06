@@ -1,0 +1,9 @@
+name: "iberci-landing-ground"
+localizedName: "Landing Ground"
+description: "Large ore-filled crater we found to land in."
+difficulty: 2
+allowLaunchLoadout: true
+allowLaunchShematics: false
+planet: 1-1-iberci
+captureWave: 20
+sector: 0

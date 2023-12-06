@@ -1,0 +1,5 @@
+type: item
+name: Zinc
+description: "A common metal in earth's crust."
+cost: 1
+color: 827de9

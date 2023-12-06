@@ -1,0 +1,5 @@
+type: item
+name: Iridium
+description: Famous for being the main component in the meteor that killed the dinosaurs.
+cost: 1
+color: 544deb

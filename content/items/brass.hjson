@@ -1,0 +1,5 @@
+type: item
+name: "Brass"
+description: "An alloy of Zinc and Copper"
+cost: 1
+color: d99d73

@@ -1,0 +1,15 @@
+type: ParticleWeather
+name: "Iberci"
+particleRegion: particle
+sizeMax: 1
+sizeMin: 1
+density: 48000
+sound: windhowl
+soundvol: 1
+drawNoise: true
+noiseColor: 571818
+useWindVector: true
+baseSpeed: 12
+opacityMultiplier: 0.75
+force: 0.2
+color: d9edff

@@ -1,0 +1,44 @@
+type: flying
+flying: true
+lowAltitude: true
+controller: BuilderAI
+name: "Delta"
+isEnemy: false
+mineSpeed: 10
+mineTier: 3
+buildSpeed: 2
+drag: 0.05
+speed: 3.55
+rotateSpeed: 19
+accel: 0.11
+itemCapacity: 90
+health: 540
+engineOffset: 6
+hitSize: 12
+weapons: [
+	{
+	name: small-mount-weapon
+	top: false
+	reload: 35
+	x: 1
+	y: 2
+	shoot: {
+		shots: 6
+		shotDelay: 2
+		spread: 2
+	}
+	inaccuracy: 3
+	ejectEffect: casing1
+	bullet: {
+		width: 7
+		height: 12
+		lifetime: 75
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		buildingDamageMultiplier: 0.01
+		homingPower: 0.04
+		speed: 5
+		damage: 15
+		}
+	}
+]
