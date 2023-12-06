@@ -1,0 +1,19 @@
+type: SolidPump
+name: "Hydrator"
+description: "Like the water extractor, but had some coffee."
+result: water
+pumpAmount: 0.6
+category: production
+size: 3
+health: 450
+liquidCapacity: 360
+attribute: water
+research: water-extractor
+requirements: [
+	metaglass/60
+	graphite/30
+	brass/40
+]
+consumes: {
+	power: 5
+}
