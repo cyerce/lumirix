@@ -1,0 +1,19 @@
+type: CoreBlock
+name: "Core: Rhyme"
+requirements: [
+	copper/16000
+	lead/16000
+	silicon/13000
+	thorium/12000
+	metaglass/12000
+	plastanium/11000
+	surge-alloy/5000
+]
+health: 13500
+size: 7
+unitCapModifier: 40
+researchCostMultiplier: 0.11
+itemCapacity: 22000
+unitType: epsilon
+research: core-coda
+category: effect

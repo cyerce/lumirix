@@ -1,0 +1,12 @@
+type: StackConveyor
+name: "Stainless Steel Hyper rail"
+description: "A fast train style rail for mass transport"
+health: 1500
+speed: 0.25
+itemCapacity: 2500
+research: stainless-steel-conveyor
+requirements: [
+	stainless-steel/10
+	thorium/50
+	palladium/20
+]

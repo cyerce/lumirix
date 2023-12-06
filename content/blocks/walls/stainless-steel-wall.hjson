@@ -1,0 +1,11 @@
+type: wall
+name: "Stainless Steel Wall"
+description: "Protects structures from enemy projectiles"
+health: 1750
+size: 1
+requirements: [
+	stainless-steel/16
+	palladium/8
+]
+research: steel-wall-large
+category: defense

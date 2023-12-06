@@ -1,0 +1,25 @@
+type: CoreBlock
+name: "Core: Onset"
+requirements: [
+	copper/20000
+	lead/20000
+	silicon/17000
+	thorium/16000
+	metaglass/16000
+	plastanium/15000
+	surge-alloy/7000
+	phase-fabric/8000
+	steel/7000
+	electrum/9000
+	brass/11000
+	bronze/13000
+
+]
+health: 22500
+size: 8
+unitCapModifier: 48
+researchCostMultiplier: 0.11
+itemCapacity: 30000
+unitType: zeta
+research: core-rhyme
+category: effect

@@ -1,0 +1,10 @@
+type: wall
+name: "Nickel Wall"
+description: "Protects structures from enemy projectiles"
+health: 320
+size: 1
+requirements: [
+	nickel/6
+]
+research: copper-wall
+category: defense

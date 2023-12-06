@@ -1,0 +1,10 @@
+type: wall
+name: "Large Cobalt Wall"
+description: "Protects structures from enemy projectiles"
+health: 1760
+size: 2
+requirements: [
+	cobalt/24
+]
+research: copper-wall-large
+category: defense

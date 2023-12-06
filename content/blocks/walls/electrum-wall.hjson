@@ -1,0 +1,12 @@
+type: wall
+name: "Electrum Wall"
+description: "Protects structures from enemy projectiles. Abrosbs lasers and electric arcs. Blocks automatic power connections.
+health: 7000
+size: 1
+requirements: [
+	electrum/5
+	plastanium/2
+	stainless-steel/3
+]
+research: plastanium-wall
+category: defense

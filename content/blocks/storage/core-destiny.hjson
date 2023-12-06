@@ -1,0 +1,28 @@
+type: CoreBlock
+name: "Core: Destiny"
+requirements: [
+	copper/24000
+	lead/24000
+	silicon/21000
+	thorium/20000
+	metaglass/20000
+	plastanium/19000
+	surge-alloy/13000
+	phase-fabric/12000
+	steel/11000
+	electrum/13000
+	brass/15000
+	bronze/17000
+	palladium/6000
+	titanium/9000
+	iridium/3000
+	plutonium/1000
+]
+health: 37500
+size: 9
+unitCapModifier: 56
+researchCostMultiplier: 0.11
+itemCapacity: 39000
+unitType: eta
+research: core-onset
+category: effect

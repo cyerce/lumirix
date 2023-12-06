@@ -1,0 +1,12 @@
+type: wall
+name: "Gigantic Surge Wall"
+description: "Protects structures from enemy projectiles"
+health: 14720
+size: 4
+requirements: [
+	surge-alloy/96
+]
+research: surge-wall-huge
+category: defense
+lightningChance: 0.05
+lightningDamage: 20

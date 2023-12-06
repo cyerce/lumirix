@@ -1,0 +1,10 @@
+type: wall
+name: "Cobalt Wall"
+description: "Protects structures from enemy projectiles"
+health: 440
+size: 1
+requirements: [
+	cobalt/6
+]
+research: copper-wall
+category: defense

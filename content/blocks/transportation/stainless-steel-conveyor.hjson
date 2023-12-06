@@ -1,0 +1,12 @@
+type: StackConveyor
+name: "Stainless Steel Conveyor"
+description: "A fast and strong conveyor made of steel."
+health: 345
+speed: 5
+itemCapacity: 25
+research: plastanium-conveyor
+requirements: [
+	stainless-steel/1
+	thorium/5
+	palladium/2
+]

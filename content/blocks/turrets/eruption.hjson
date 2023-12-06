@@ -1,0 +1,96 @@
+type: ItemTurret
+name: "Eruption"
+description: "Kaboom."
+range: 250
+recoil: 6
+reload: 60
+shake: 2
+size: 4
+health: 300
+targetAir: false
+targetGround: true
+shots: 1
+inaccuracy: 0
+category: turret
+ammoTypes: {
+		graphite: {
+			type: ArtilleryBulletType
+			lifetime: 75
+			width: 15
+			height: 15
+			collidesTiles: false
+			splashDamageRadius: 30
+			splashDamage: 75
+			speed: 300
+		}
+		pyratite: {
+			type: ArtilleryBulletType
+			lifetime: 75
+			width: 15
+			height: 15
+			collidesTiles: false
+			splashDamageRadius: 30
+			splashDamage: 65
+			makeFire: true
+			trailEffect: incendTrail
+			ammoMultiplier: 4
+			status: burning
+			statusDuration: 60
+			speed: 300
+		}
+		blast-compound: {
+			type: ArtilleryBulletType
+			lifetime: 75
+			width: 17
+			height: 17
+			collidesTiles: false
+			splashDamageRadius: 45
+			splashDamage: 100
+			shots: 1
+			speed: 300
+		}
+		thorium: {
+			type: ArtilleryBulletType
+			lifetime: 75
+			width: 17
+			height: 17
+			collidesTiles: false
+			splashDamageRadius: 40
+			splashDamage: 85
+			shots: 1
+			homingPower: 0.16
+			homingRange: 50
+			speed: 300
+		}
+		plastanium: {
+			type: ArtilleryBulletType
+			lifetime: 75
+			width: 17
+			height: 17
+			collidesTiles: false
+			splashDamageRadius: 30
+			splashDamage: 25
+			shots: 1
+			speed: 30
+			fragBullet: {
+			type: ArtilleryBulletType
+				lifetime: 10
+				width: 6
+				height: 6
+				collidesTiles: true
+				splashDamageRadius: 20
+				splashDamage: 15
+				fragBullets: 3
+				speed: 3
+			}
+		}
+}
+
+research: ripple-mk2
+requirements: [
+copper/280
+graphite/215
+titanium/130
+metaglass/170
+thorium/150
+]

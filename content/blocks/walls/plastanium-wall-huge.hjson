@@ -1,0 +1,13 @@
+type: wall
+name: "Huge Plastanium Wall"
+description: "Protects structures from enemy projectiles"
+health: 4500
+size: 3
+requirements: [
+	plastanium/45
+	metaglass/18
+]
+research: plastanium-wall-large
+category: defense
+insulated: true
+absorbLasers: true

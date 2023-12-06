@@ -1,0 +1,112 @@
+type: ItemTurret
+name: "Ripple MK2"
+description: "Its like the Ripple but its better."
+range: 350
+recoil: 6
+reload: 60
+shootSound: artillery
+shake: 2
+size: 4
+health: 200
+targetAir: false
+shots: 5
+targetGround: true
+category: turret
+shootCone: 35
+inaccuracy: 12
+ammoTypes: {
+	graphite: {
+		type: ArtilleryBulletType
+		lifetime: 100
+		shots: 5
+		width: 15
+		height: 15
+		collidesTiles: false
+		splashDamageRadius: 20
+		splashDamage: 50
+		speed: 3
+	}
+	silicon: {
+		type: ArtilleryBulletType
+		lifetime: 100
+		width: 15
+		height: 15
+		collidesTiles: false
+		splashDamageRadius: 20
+		splashDamage: 40
+		speed: 3
+		homingRange: 50
+		homingPower: 0.08
+	}
+	pyratite: {
+		type: ArtilleryBulletType
+		hitEffect: blastExplosion
+		lifetime: 100
+		width: 15
+		height: 15
+		collidesTiles: false
+		splashDamageRadius: 20
+		splashDamage: 50
+		speed: 3
+		makeFire: true
+		trailEffect: incendTrail
+		ammoMultiplier: 4
+		status: burning
+		statusDuration: 60
+		
+	}
+	blast-compound: {
+		type: ArtilleryBulletType
+		hitEffect: blastExplosion
+		lifetime: 100
+		width: 15
+		height: 15
+		collidesTiles: false
+		splashDamageRadius: 25
+		splashDamage: 65
+		speed: 3
+		status: blasted
+		statusDuration: 60
+	}
+	thorium: {
+		type: ArtilleryBulletType
+		lifetime: 100
+		width: 15
+		height: 15
+		collidesTiles: false
+		splashDamageRadius: 25
+		splashDamage: 60
+		speed: 3
+		homingRange: 50
+		homingPower: 0.16
+	}
+	plastanium: {
+		type: ArtilleryBulletType
+		lifetime: 100
+		width: 15
+		height: 15
+		collidesTiles: false
+		splashDamageRadius: 15
+		splashDamage: 25
+		speed: 3
+		fragBullets: 3
+		fragBullet: {
+			width: 10
+			height: 10
+			lifetime: 15
+			fragBullets: 3
+			splashDamage: 15
+			splashDamageRadius: 10
+		}
+	}
+}
+shoot: {
+	shots: 5
+}
+research: ripple
+requirements: [
+copper/250
+graphite/185
+titanium/110
+metaglass/150
+]

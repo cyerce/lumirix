@@ -1,0 +1,56 @@
+type: ItemTurret
+name: "Decieve"
+description: "A powerful sniper-like railgun. It's like the Foreshadow, but it had 17 cups of coffee."
+size: 4
+health: 4500
+recoilAmount: 2
+reload: 240
+maxAmmo: 25
+range: 1000
+targetGround: true
+targetAir: true
+canOverdrive: true
+rotateSpeed: 2.8
+chargeTime: 240
+ammoPerShot: 1
+consumes: {
+	power: 30
+	liquid: {
+		liquid: cryofluid
+		amount: 0.5
+	}
+}
+heatColor: 83dcff
+shootSound: laserblast
+ammoTypes: {
+	iridium: {
+		type: PointBulletType
+		shootEffect: instShoot
+		hitEffect: instHit
+		smokeEffect: smokeCloud
+		trailEffect: instTrail
+		despawnEffect: instBomb
+		shots: 3
+		shootSpacing: 20
+		trailSpacing: 20
+		damage: 5050
+		hitShake: 10
+		ammoMultiplier: 1
+	}
+}
+research: foreshadow
+requirements: [
+	copper/1000
+	lead/750
+	surge-alloy/350
+	plastanium/650
+	thorium/1000
+	stainless-steel/1250
+]
+shoot: {
+	shots: 3
+	shootSpacing: 20
+}
+shots: 3
+shootSpacing: 20
+category: turret

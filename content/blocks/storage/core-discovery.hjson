@@ -1,0 +1,29 @@
+type: CoreBlock
+name: "Core: Discovery"
+requirements: [
+	copper/32000
+	lead/32000
+	silicon/29000
+	thorium/28000
+	metaglass/28000
+	plastanium/27000
+	surge-alloy/21000
+	phase-fabric/20000
+	steel/19000
+	electrum/21000
+	brass/23000
+	bronze/25000
+	palladium/14000
+	titanium/17000
+	iridium/11000
+	plutonium/9000
+	stainless-steel/5000
+]
+health: 61500
+size: 11
+unitCapModifier: 72
+researchCostMultiplier: 0.11
+itemCapacity: 56000
+unitType: iota
+research: core-aura
+category: effect

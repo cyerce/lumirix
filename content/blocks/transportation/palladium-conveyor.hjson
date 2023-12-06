@@ -1,0 +1,12 @@
+type: ArmoredConveyor
+name: "Palladium Conveyor"
+description: "A conveyor. but its palladium. idk man its late"
+health: 645
+speed: 0.17
+displaySpeed: 23
+research: cobalt-conveyor
+requirements: [
+	thorium/2
+	palladium/1
+	cobalt/2
+]

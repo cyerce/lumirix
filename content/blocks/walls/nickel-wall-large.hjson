@@ -1,0 +1,10 @@
+type: wall
+name: "Large Nickel Wall"
+description: "Protects structures from enemy projectiles"
+health: 1280
+size: 2
+requirements: [
+	nickel/24
+]
+research: copper-wall-large
+category: defense

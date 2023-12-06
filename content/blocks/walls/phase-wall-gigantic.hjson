@@ -1,0 +1,12 @@
+type: wall
+name: "Gigantic Phase Wall"
+description: "Protects structures from enemy projectiles"
+health: 9600
+size: 4
+requirements: [
+	phase-fabric/96
+]
+research: phase-wall-huge
+category: defense
+flashHit: true
+chanceDeflect: 10

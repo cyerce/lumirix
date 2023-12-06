@@ -1,0 +1,11 @@
+type: Conveyor
+name: "Cobalt Conveyor"
+description: "A conveyor. but its cobalt. idk man its late"
+health: 180
+speed: 0.17
+displaySpeed: 23
+research: titanium-conveyor
+requirements: [
+	thorium/2
+	cobalt/1
+]

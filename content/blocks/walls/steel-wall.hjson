@@ -1,0 +1,11 @@
+type: wall
+name: "Steel Wall"
+description: "Protects structures from enemy projectiles"
+health: 1150
+size: 1
+requirements: [
+	steel/4
+	palladium/2
+]
+research: surge-wall
+category: defense

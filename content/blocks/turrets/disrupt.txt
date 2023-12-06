@@ -1,0 +1,36 @@
+type: LaserTurret
+name: "Disrupt"
+description: "Its like the Ripple but its better."
+range: 250
+recoil: 6
+reload: 80
+shake: 5
+size: 5
+health: 2000
+targetAir: true
+targetGround: true
+category: turret
+shootSound: laserblast
+chargeSound: lasercharge
+rechargeTime: 80
+accurateDelay: false
+shootType: {
+	type: LaserBulletType
+	chargeEffect: lancerLaserCharge
+	length: 460
+	drawSize: 400
+	width: 50
+	lifetime: 50
+	sideAngle: 15
+	damage: 100
+	collidesAir: true
+	pierceCap: 12
+	largeHit: true
+}
+research: ripple
+requirements: [
+copper/250
+graphite/185
+titanium/110
+metaglass/150
+]

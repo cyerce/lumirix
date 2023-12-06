@@ -1,0 +1,28 @@
+type: CoreBlock
+name: "Core: Aura"
+requirements: [
+	copper/28000
+	lead/28000
+	silicon/25000
+	thorium/24000
+	metaglass/24000
+	plastanium/23000
+	surge-alloy/17000
+	phase-fabric/16000
+	steel/15000
+	electrum/17000
+	brass/19000
+	bronze/21000
+	palladium/10000
+	titanium/13000
+	iridium/7000
+	plutonium/5000
+]
+health: 49500
+size: 10
+unitCapModifier: 64
+researchCostMultiplier: 0.11
+itemCapacity: 47000
+unitType: theta
+research: core-destiny
+category: effect

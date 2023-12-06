@@ -1,0 +1,18 @@
+type: wall
+name: "Electrum Wall"
+description: "Protects structures from enemy projectiles. Abrosbs lasers and electric arcs. Blocks automatic power connections.
+health: 28000
+size: 2
+requirements: [
+	electrum/20
+	plastanium/8
+	stainless-steel/12
+]
+research: plastanium-wall
+absorbLasers: true
+insulated: true
+lightningChance: 0.05
+lightningDamage: 20
+hitFlash: true
+deflectChance: 10
+category: defense

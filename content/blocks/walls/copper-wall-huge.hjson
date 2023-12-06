@@ -1,0 +1,10 @@
+type: wall
+name: "Huge Copper Wall"
+description: "Protects structures from enemy projectiles"
+health: 2880
+size: 3
+requirements: [
+	copper/54
+]
+research: copper-wall-large
+category: defense

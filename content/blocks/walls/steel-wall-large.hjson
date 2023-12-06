@@ -1,0 +1,11 @@
+type: wall
+name: "Large Steel Wall"
+description: "Protects structures from enemy projectiles"
+health: 4600
+size: 2
+requirements: [
+	steel/16
+	palladium/8
+]
+research: steel-wall
+category: defense

@@ -1,0 +1,118 @@
+type: ItemTurret
+name: "Harbinger"
+description: "A powerful nuclear turret, not quite a nuke but its no grenad either."
+size: 4
+health: 4500
+recoilAmount: 2
+reload: 480
+range: 1000
+maxAmmo: 25
+canOverdrive: true
+rotateSpeed: 2.8
+shots: 5
+spread: 5.5
+chargeTime: 240
+targetGround: true
+targetAir: true
+consumes: {
+	power: 100
+	liquid: {
+		liquid: cryofluid
+		amount: 1
+	}
+}
+shootSound: laserbig
+ammoTypes: {
+	warhead: {
+		type: ArtilleryBulletType
+		collidesTiles: true
+		speed: 4
+		lifetime: 300
+		width: 24
+		height: 24
+		ammoMultiplier: 1
+		splashDamageRadius: 250
+		splashDamage: 1350
+		homingPower: 1
+		homingRadius: 50
+		incendChance: 100
+		fragBullets: 4
+		fragBullet: {
+			type: ArtilleryBulletType
+		collidesTiles: true
+		speed: 4
+		lifetime: 10
+		width: 24
+		height: 24
+		ammoMultiplier: 1
+		splashDamageRadius: 250
+		splashDamage: 1350
+		homingPower: 1
+		homingRadius: 50
+		incendChance: 100
+		}
+despawnEffect: {
+	type: MultiEffect
+	lifetime: 240
+	effects: [
+		{
+			type: ParticleEffect
+			particles: 1
+			length: 1
+			lifetime: 60
+			region: cyerce-additions-nuclear-blast-0
+			sizeFrom: 1
+			sizeTo: 320
+			colorFrom: ffffff
+			colorTo: 000000
+			layer: 105
+		}
+		{
+			type: ParticleEffect
+			particles: 1
+			length: 1
+			lifetime: 60
+			region: cyerce-additions-nuclear-blast-1
+			sizeFrom: 1
+			sizeTo: 380
+			colorFrom: ffffff
+			colorTo: 000000
+		}
+		{
+			type: ParticleEffect
+			particles: 1
+			length: 1
+			lifetime: 60
+			region: cyerce-additions-nuclear-blast-2
+			sizeFrom: 1
+			sizeTo: 440
+			colorFrom: ffffff
+			colorTo: 000000
+		}
+		{
+			type: ParticleEffect
+			particles: 1
+			length: 1
+			lifetime: 60
+			region: cyerce-additions-nuclear-blast-3
+			sizeFrom: 1
+			sizeTo: 500
+			colorFrom: ffffff
+			colorTo: 000000
+		}
+	]
+	}
+}
+}
+requirements: [
+	copper/1500
+	lead/1250
+	titanium/1000
+	silicon/1250
+	thorium/1500
+	plastanium/850
+	surge-alloy/750
+	stainless-steel/650
+]
+research: foreshadow
+category: turret

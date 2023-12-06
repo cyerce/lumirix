@@ -1,0 +1,125 @@
+type: ItemTurret
+name: "Hive"
+description: "Shoots homing rounds."
+size: 3
+health: 545
+targetsGround: false
+shootSound: artillery
+category: turret
+targetsAir: true
+reload: 30
+recoil: 2
+shake: 1
+range: 300
+ammoTypes: {
+	graphite: {
+		type: ArtilleryBulletType
+		height: 17
+		width: 17
+		collidesTiles: false
+		lifetime: 75
+		speed: 4
+		splashDamage: 10
+		splashDamageRadius: 10
+		fragBullets: 3
+		fragBullet: {
+			type: BasicBulletType
+			fragBullets: 3
+			lifetime: 100
+			homingRange: 100
+			homingPower: 0.16
+			splashDamage: 25
+			splashDamageRadius: 25
+			collidesAir: true
+			collidesGround: false
+			collidesTiles: false
+			speed: 6
+		}
+	}
+	pyratite: {
+		type: ArtilleryBulletType
+		height: 17
+		width: 17
+		collidesTiles: false
+		lifetime: 75
+		speed: 4
+		splashDamage: 10
+		splashDamageRadius: 10
+		fragBullets: 3
+		fragBullet: {
+			type: BasicBulletType
+			fragBullets: 3
+			lifetime: 100
+			homingRange: 100
+			homingPower: 0.16
+			splashDamage: 25
+			splashDamageRadius: 25
+			collidesAir: true
+			collidesGround: false
+			collidesTiles: false
+			makeFire: true
+			trailEffect: incendTrail
+			status: burning
+			statusDuration: 60
+			speed: 6
+		}
+	}
+	blast-compound: {
+		type: ArtilleryBulletType
+		height: 17
+		width: 17
+		collidesTiles: false
+		lifetime: 75
+		speed: 4
+		splashDamage: 10
+		splashDamageRadius: 10
+		fragBullets: 4
+		fragBullet: {
+			type: BasicBulletType
+			fragBullets: 4
+			lifetime: 100
+			homingRange: 100
+			homingPower: 0.16
+			splashDamage: 30
+			splashDamageRadius: 35
+			collidesAir: true
+			collidesGround: false
+			collidesTiles: false
+			speed: 6
+		}
+	}
+	plastanium: {
+		type: ArtilleryBulletType
+		height: 17
+		width: 17
+		collidesTiles: false
+		lifetime: 75
+		speed: 4
+		splashDamage: 10
+		splashDamageRadius: 10
+		fragBullets: 6
+		fragBullet: {
+			type: BasicBulletType
+			fragBullets: 6
+			lifetime: 100
+			homingRange: 100
+			homingPower: 0.16
+			splashDamage: 30
+			splashDamageRadius: 25
+			collidesAir: true
+			collidesGround: false
+			collidesTiles: false
+			speed: 8
+		}
+	}
+}
+shoot: {
+	shots: 1
+}
+requirements: [
+	lead/210
+	graphite/190
+	silicon/210
+	plastanium/130
+]
+research: spectre

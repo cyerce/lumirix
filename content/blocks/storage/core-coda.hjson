@@ -1,0 +1,18 @@
+type: CoreBlock
+name: "Core: Coda"
+requirements: [
+	copper/12000
+	lead/12000
+	silicon/9000
+	thorium/8000
+	metaglass/8000
+	plastanium/7000
+]
+health: 9500
+size: 6
+unitCapModifier: 32
+researchCostMultiplier: 0.11
+itemCapacity: 18000
+unitType: delta
+research: core-nucleus
+category: effect
