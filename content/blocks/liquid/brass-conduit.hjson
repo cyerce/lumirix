@@ -1,0 +1,14 @@
+type: conduit
+leaks: true
+name: "Brass Conduit"
+description: "Fun fact, brass nowadays is mostly used for instruments and piping."
+health: 540
+requirements: [
+stainless-steel/1
+brass/1
+metaglass/1
+]
+liquidCapacity: 100
+liquidPressure: 2
+category: liquid
+research: plated-conduit

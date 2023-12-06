@@ -1,0 +1,20 @@
+type: ConsumeGenerator
+name: Scrap Generator
+requirements: [
+	copper/25
+	lead/15
+]
+powerProduction: 0.25
+itemDuration: 60
+ambientSound: smelter
+ambientSoundVolume: 0.03
+generateEffect: generatespark
+consumes: {
+	items: {
+		items: [
+			scrap/1
+		]
+	}
+}
+category: power
+research: combustion-generator

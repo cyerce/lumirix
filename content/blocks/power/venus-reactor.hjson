@@ -1,0 +1,40 @@
+type: ImpactReactor
+name: "Venus Reactor"
+itemDuration: 140
+liquidCapacity: 384
+itemCapacity: 30
+size: 7
+hasLiquids: true
+powerProduction: 3515.2
+plasma1: 666666
+plasma2: 3b3b3b
+consumes: {
+  power: 676
+  items: {
+    items: [
+      thorium/15
+      uranium/15
+      plutonium/15
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 3.2
+  }
+}
+requirements: [
+  copper/13550
+  lead/14330
+  silicon/13550
+  graphite/13550
+  thorium/18540
+  surge-alloy/23500
+  invar/14450
+  stainless-steel/15560
+  steel/13530
+  chromium/11540
+]
+category: power
+ambientSound: beam
+ambientSoundVolume: 0.5
+research: uranium-reactor

@@ -1,0 +1,14 @@
+type: PowerNode
+name: "Advanced Power Node"
+size: 2
+maxNodes: 25
+laserRange: 40
+health: 650
+requirements: [
+	bronze/3
+	platinum/2
+	nickel/3
+	palladium/1
+]
+research: power-node-large
+category: power

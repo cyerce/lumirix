@@ -1,0 +1,11 @@
+type: Floor
+name: "Water (Roststone variant)"
+speedMultiplier: 0.5
+variants: 0
+status: wet
+statusDuration: 90
+liquidDrop: water
+isLiquid: true
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true
