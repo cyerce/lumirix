@@ -1,0 +1,9 @@
+{
+    name: "lumirix",
+    displayName: "Lumirix",
+    author: "Cyerce",
+    description: "Medium sized mod with tons of content.",
+    version: 1.6,
+    minGameVersion: 139
+    hidden: false
+}
