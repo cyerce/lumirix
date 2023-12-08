@@ -1,0 +1,17 @@
+name: "iberci-rose-valley"
+localizedName: "Rose Valley"
+difficulty: 2
+allowLaunchLoadout: true
+allowLaunchShematics: false
+planet: 1-1-iberci
+captureWave: 20
+sector: 26
+research: {
+	parent: core-chip
+	objectives: [
+		{
+			type: SectorComplete
+			preset: iberci-caldera
+		}
+	]
+}

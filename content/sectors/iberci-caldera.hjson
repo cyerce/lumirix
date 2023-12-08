@@ -1,0 +1,17 @@
+name: "iberci-caldera"
+localizedName: "Caldera"
+difficulty: 2
+allowLaunchLoadout: true
+allowLaunchShematics: false
+planet: 1-1-iberci
+captureWave: 20
+sector: 10
+research: {
+	parent: core-chip
+	objectives: [
+		{
+			type: SectorComplete
+			preset: iberci-crimson-pass
+		}
+	]
+}

@@ -1,0 +1,17 @@
+name: "iberci-crimson-pass"
+localizedName: "Crimson Pass"
+difficulty: 1
+allowLaunchLoadout: true
+allowLaunchShematics: false
+planet: 1-1-iberci
+captureWave: 20
+sector: 6
+research: {
+	parent: core-chip
+	objectives: [
+		{
+			type: SectorComplete
+			preset: iberci-landing-zone
+		}
+	]
+}

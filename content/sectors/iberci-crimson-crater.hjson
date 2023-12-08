@@ -1,0 +1,17 @@
+name: "iberci-crimson-crater"
+localizedName: "Crimson Crater"
+difficulty: 5
+allowLaunchLoadout: true
+allowLaunchShematics: false
+planet: 1-1-iberci
+captureWave: 50
+sector: 14
+research: {
+	parent: core-chip
+	objectives: [
+		{
+			type: SectorComplete
+			preset: iberci-summit
+		}
+	]
+}

@@ -1,0 +1,17 @@
+name: "iberci-rosey-field"
+localizedName: "Rosey Field"
+difficulty: 5
+allowLaunchLoadout: true
+allowLaunchShematics: false
+planet: 1-1-iberci
+captureWave: 40
+sector: 22
+research: {
+	parent: core-chip
+	objectives: [
+		{
+			type: SectorComplete
+			preset: iberci-crimson-crater
+		}
+	]
+}

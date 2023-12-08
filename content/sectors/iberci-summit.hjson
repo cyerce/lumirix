@@ -1,0 +1,17 @@
+name: "iberci-summit"
+localizedName: "Summit"
+difficulty: 3
+allowLaunchLoadout: true
+allowLaunchShematics: false
+planet: 1-1-iberci
+captureWave: 25
+sector: 18
+research: {
+	parent: core-chip
+	objectives: [
+		{
+			type: SectorComplete
+			preset: iberci-rose-valley
+		}
+	]
+}
