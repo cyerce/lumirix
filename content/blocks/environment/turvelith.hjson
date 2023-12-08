@@ -1,0 +1,4 @@
+type: floor
+name: "Turvelith"
+itemDrop: turvelith
+playerUnminable: true
