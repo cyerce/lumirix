@@ -1,0 +1,40 @@
+localizedName: Cinephus
+
+mesh: {
+    type: SunMesh
+    divisions: 4
+    radius: 10
+    octaves: 4
+    persistence: 0.6
+    scl: 1
+    pow: 1
+    mag: 0.5
+    colorScale: 1
+    colors: [
+        ff8989
+	ff6262
+	d74444
+	ff0000
+	ff3636
+	ff8383
+	ff9696
+    ]
+}
+
+radius: 5
+accessible: false
+visible: true
+hasAtmosphere: true
+bloom: true
+orbitSpacing: 8
+atmosphereColor: ff6262
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+atmosphereRadius: 5
+solarSystem: 2-0-cinephus
+parent: sun
+orbitRadius: 12000
+drawOrbit: false
+tidalLock: true
+iconColor: 51dcff
+icon: commandRally

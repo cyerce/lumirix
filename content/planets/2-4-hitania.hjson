@@ -1,0 +1,70 @@
+localizedName: Hitania
+mesh: {
+	type: NoiseMesh
+	divisions: 4
+	seed: 69
+	color1: ffb8e2
+	color2: edc5dd
+	radius: 0.8
+	octaves: 12
+	persistence: 8
+	scale: 0.1
+	mag: 1.5
+}
+cloudMesh: {
+	type: HexSkyMesh
+	seed: 96
+	speed: 0.4
+	radius: 0.07
+	divisions: 5
+	color: cf88b2
+	octaves: 3
+	persistence: 0.7
+	scl: 1
+	thresh: 0.4
+}
+alwaysUnlocked: true
+sectorSize: 1
+orbitSpacing: 12
+radius: 1
+allowLaunchToNumbered: false
+minZoom: 0.5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: true
+sectorSeed: 529
+bloom: false
+visible: true
+atmosphereColor: cf88b2
+iconColor: cf88b2
+hasAtmosphere: true
+allowWaveSimulation: true
+allowLaunchToNumbered: false
+clearSectorOnLose: false
+allowWaves: true
+icon: planet
+defaultCore: core-nucleus
+parent: 2-0-cinephus
+solarSystem: 2-0-cinephus
+generator: {
+  min: 6
+  max: 12
+
+  octaves: 2
+  persistence: 0.4
+  scale: 30
+  mag: 0.4
+  thresh: 1
+  foct: 3
+  fmag: 0.5
+  fscl: 50
+  fper: 0.6
+
+  radMin: 600
+  radMax: 600
+
+  stoneChance: 0.5
+  sandChance:  0.5
+}
