@@ -1,0 +1,16 @@
+type: CoreBlock
+name: "Core: Chip"
+size: 3
+alwaysUnlocked: true
+isFirstTier: true
+unitType: chip
+health: 1100
+itemCapacity: 4000
+unitCapModifier: 8
+research: {
+	planet: 1-1-iberci
+	root: true
+	name: Iberci
+	requiresUnlock: false
+}
+category: effect

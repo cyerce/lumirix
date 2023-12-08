@@ -1,0 +1,16 @@
+type: CoreBlock
+name: "Core: Cell"
+category: effect
+unitType: cell
+requirements: [
+	erythro/8000
+	lead/8000
+	silicon/5000
+	umbralith/4000
+]
+research: core-node
+health: 6000
+itemCapacity: 13000
+size: 5
+thrusterLength: 40
+unitCapModifier: 24
