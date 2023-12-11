@@ -33,3 +33,8 @@ Stuff that needs to be done:
 33. Resprite Advanced Power Node
 34. Resprite Coda, Rhyme, Onset, Destiny, Aura, and Discovery cores
 35. Resprite Chip, Node, and Cell cores.
+36. Resprite Decieve, Harbinger, Hive, and RippleMK2
+37. Come up with a new name for RippleMK2
+38. Resprite Delta, Epsilon, Eta, Iota, Theta, and Zeta units.
+39. Create sprites for Chip, Node, and Cell units.
+40. Turn Deuterium and Tritium into gases.
