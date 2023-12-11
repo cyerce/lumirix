@@ -7,7 +7,7 @@ targetsGround: false
 shootSound: artillery
 category: turret
 targetsAir: true
-reload: 30
+reload: 15
 recoil: 2
 shake: 1
 range: 300
@@ -28,8 +28,8 @@ ammoTypes: {
 			lifetime: 100
 			homingRange: 100
 			homingPower: 0.16
-			splashDamage: 25
-			splashDamageRadius: 25
+			splashDamage: 30
+			splashDamageRadius: 30
 			collidesAir: true
 			collidesGround: false
 			collidesTiles: false
@@ -52,8 +52,8 @@ ammoTypes: {
 			lifetime: 100
 			homingRange: 100
 			homingPower: 0.16
-			splashDamage: 25
-			splashDamageRadius: 25
+			splashDamage: 30
+			splashDamageRadius: 30
 			collidesAir: true
 			collidesGround: false
 			collidesTiles: false
@@ -80,8 +80,8 @@ ammoTypes: {
 			lifetime: 100
 			homingRange: 100
 			homingPower: 0.16
-			splashDamage: 30
-			splashDamageRadius: 35
+			splashDamage: 35
+			splashDamageRadius: 40
 			collidesAir: true
 			collidesGround: false
 			collidesTiles: false
@@ -104,17 +104,49 @@ ammoTypes: {
 			lifetime: 100
 			homingRange: 100
 			homingPower: 0.16
-			splashDamage: 30
-			splashDamageRadius: 25
+			splashDamage: 35
+			splashDamageRadius: 30
 			collidesAir: true
 			collidesGround: false
 			collidesTiles: false
 			speed: 8
 		}
 	}
+	thorium: {
+		type: ArtilleryBulletType
+		height: 17
+		width: 17
+		collidesTiles: false
+		lifetime: 75
+		speed: 4
+		splashDamage: 10
+		splashDamageRadius: 10
+		fragBullets: 12
+		fragBullet: {
+			type: ShrapnelBulletType
+			length: 130
+			width: 20
+			damage: 160
+			collidesAir: true
+			collidesGround: false
+			collidesTiles: false
+			speed: 8
+			shoot: {
+				shots: 4
+				shootSpread: 20
+			}
+		}
+	}
+
 }
 shoot: {
 	shots: 1
+}
+coolantMultiplier: 4.167
+consumes: {
+	coolant: {
+		amount: 0.4
+	}
 }
 requirements: [
 	lead/210

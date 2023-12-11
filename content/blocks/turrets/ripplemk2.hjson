@@ -103,6 +103,12 @@ ammoTypes: {
 shoot: {
 	shots: 5
 }
+coolantMultiplier: 4.167
+consumes: {
+	coolant: {
+		amount: 0.4
+	}
+}
 research: ripple
 requirements: [
 copper/250

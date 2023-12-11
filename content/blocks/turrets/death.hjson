@@ -1,0 +1,43 @@
+type: ItemTurret
+name: "Death"
+description: "..."
+range: 1000
+recoil: 6
+reload: 10
+shootSound: artillery
+shake: 2
+size: 1
+health: 200000
+targetAir: true
+shots: 5
+targetGround: true
+category: turret
+shootCone: 35
+inaccuracy: 12
+ammoTypes: {
+	copper: {
+		type: StandardBulletType
+		lifetime: 350
+		shots: 5
+		width: 15
+		height: 15
+		collidesTiles: true
+		splashDamageRadius: 200
+		splashDamage: 500
+		damage: 500
+		speed: 10
+	}
+}
+shoot: {
+	shots: 5
+}
+coolantMultiplier: 4.167
+consumes: {
+	coolant: {
+		amount: 0.4
+	}
+}
+alwaysUnlocked: false
+requirements: [
+copper/0
+]
