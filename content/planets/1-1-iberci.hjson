@@ -63,7 +63,8 @@ cloudMesh: {
 		thresh: 0.4
 		}
 	]
-}alwaysUnlocked: true
+}
+alwaysUnlocked: false
 sectorSize: 1
 orbitSpacing: 12
 radius: 1
@@ -72,11 +73,11 @@ minZoom: 0.5
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-accessible: true
+accessible: false
 updateLighting: true
 sectorSeed: 529
 bloom: false
-visible: true
+visible: false
 atmosphereColor: 8c2e2e
 iconColor: b50000
 hasAtmosphere: true
