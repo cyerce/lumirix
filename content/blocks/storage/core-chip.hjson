@@ -1,7 +1,7 @@
 type: CoreBlock
 name: "Core: Chip"
 size: 3
-alwaysUnlocked: true
+alwaysUnlocked: false
 isFirstTier: true
 unitType: chip
 health: 1100
