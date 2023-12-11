@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: "Blast Catalyzer"
+description: "It's a big machine that makes blast compound."
+size: 3
+health: 395
+itemCapacity: 30
+category: crafting
+research: silicon-crucible
+consumes: {
+	power: 4
+	items: {
+		items: [
+			pyratite/6
+			spore-pod/6
+		]
+	}
+}
+outputItem: blast-compound/6
+craftTime: 80
+requirements: [
+	copper/125
+	titanium/125
+	metaglass/60
+	silicon/50
+]

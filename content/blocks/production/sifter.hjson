@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: "Sifter"
+description: "Turns sand into valuable resources."
+size: 2
+health: 395
+itemCapacity: 20
+category: crafting
+research: graphite-press
+consumes: {
+	power: 4
+	items: {
+		items: [
+			sand/10
+		]
+	}
+}
+outputItem: scrap/8
+craftTime: 90
+requirements: [
+	copper/80
+	lead/120
+	silicon/60
+]

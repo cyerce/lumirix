@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: "Iyinspore Press"
+category: crafting
+requirements: [
+	cobalt/35
+	lead/75
+	silicon/60
+	titanium/90
+]
+liquidCapacity: 300
+craftTime: 20
+outputLiquid: oil/1.5
+size: 2
+health: 640
+hasLiquids: true
+hasPower: true
+consumes: {
+	items: {
+		items: [
+			iyinspore-pod/1
+		]
+	}
+	power: 3.5
+}
+research: spore-press

@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: "Water Separator"
+description: "Water isotopes have different condensation points. We can use that."
+size: 4
+health: 695
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		}
+		{
+		type: DrawFlame
+		}
+	]
+}
+liquidCapacity: 1340
+category: crafting
+research: venus-reactor
+consumes: {
+	power: 4
+	liquid: {
+		liquid: water
+		amount: 67
+	}
+}
+outputLiquid: heavy-water/0.1
+craftTime: 300
+requirements: [
+	lead/250
+	thorium/300
+	surge-alloy/300
+	titanium/350
+	silicon/850
+]

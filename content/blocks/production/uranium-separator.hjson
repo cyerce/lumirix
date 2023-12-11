@@ -1,0 +1,28 @@
+type: Separator
+name: "Uranium Separator"
+description: "Spinning chambers separate isotopes of uranium."
+size: 5
+health: 695
+itemCapacity: 1390
+category: crafting
+research: venus-reactor
+consumes: {
+	power: 4
+	items: {
+		items: [
+			uranium/139
+		]
+	}
+}
+results: [
+	uranium-238/138
+	uranium-235/1
+]
+craftTime: 300
+requirements: [
+	lead/250
+	thorium/300
+	surge-alloy/300
+	titanium/350
+	silicon/850
+]

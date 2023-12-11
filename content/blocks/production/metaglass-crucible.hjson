@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: "Metaglass Crucible"
+description: "Sometimes you need more and have less space."
+size: 3
+health: 340
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		}
+		{
+		type: DrawFlame
+		}
+	]
+}
+category: crafting
+itemCapacity: 25
+research: kiln
+consumes: {
+	items: {
+		items: [
+			sand/9
+			lead/9
+			pyratite/2
+		]
+	}
+	power: 2
+}
+craftTime: 120
+outputItem: metaglass/10
+requirements: [
+	titanium/140
+	lead/120
+	silicon/120
+	plastanium/90
+]

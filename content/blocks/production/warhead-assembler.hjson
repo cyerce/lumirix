@@ -1,0 +1,42 @@
+type: GenericCrafter
+name: "Warhead Assembler"
+description: "Kaboom."
+size: 5
+health: 695
+ambientSound: laserblast
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		}
+		{
+		type: DrawFlame
+		}
+	]
+}
+liquidCapacity: 4
+itemCapacity: 100
+category: crafting
+research: venus-reactor
+consumes: {
+	power: 4
+	items: {
+		items: [
+			lithium-deuteride/25
+			lithium-tritide/15
+			uranium-235/15
+			uranium-238/50
+			titanium/25
+			]
+		}
+	}
+outputItem: warhead/1
+craftTime: 900
+requirements: [
+	lead/250
+	thorium/300
+	surge-alloy/300
+	titanium/350
+	silicon/850
+]

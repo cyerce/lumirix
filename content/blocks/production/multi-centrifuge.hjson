@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: "MultiCentrifuge"
+description: "Turns tons of oil into coal."
+size: 3
+health: 560
+itemCapacity: 180
+category: crafting
+research: coal-centrifuge
+consumes: {
+	power: 3
+	liquid: {
+		liquid: oil
+		amount: 1.5
+	}
+}
+outputItem: coal/45
+craftTime: 30
+requirements: [
+	metaglass/80
+	titanium/120
+	silicon/60
+	plastanium/35
+]

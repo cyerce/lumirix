@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: "Deuterium Electrolyzer"
+description: "Deuterium can be separated from Oxygen, just like Hydrogen."
+size: 4
+health: 695
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		}
+		{
+		type: DrawFlame
+		}
+	]
+}
+liquidCapacity: 120
+category: crafting
+research: venus-reactor
+consumes: {
+	power: 10
+	liquid: {
+		liquid: heavy-water
+		amount: 1
+		}
+	}
+outputLiquid: deuterium/1
+craftTime: 300
+requirements: [
+	lead/250
+	thorium/300
+	surge-alloy/300
+	titanium/350
+	silicon/850
+]

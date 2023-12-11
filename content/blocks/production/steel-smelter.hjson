@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: "Steel Smelter"
+description: "It's a small machine that uses carbon and ferrite to make steel."
+size: 2
+health: 160
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		}
+		{
+		type: DrawFlame
+		}
+	]
+}
+itemCapacity: 10
+category: crafting
+research: silicon-smelter
+consumes: {
+	power: 0.5
+	items: {
+		items: [
+			coal/1
+			ferrite/2
+		]
+	}
+}
+outputItem: steel/1
+craftTime: 40
+requirements: [
+	copper/30
+	lead/25
+]
