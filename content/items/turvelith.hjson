@@ -1,0 +1,8 @@
+type: item
+name: "Turvelith"
+hardness: 0.75
+cost: 1
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+lowPriority: true
