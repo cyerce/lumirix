@@ -1,0 +1,20 @@
+type: Drill
+requirements: [
+	erythro/12
+]
+category: production
+tier: 2
+drillTime: 600
+liquidBoostIntensity: 1.6
+size: 2
+alwaysUnlocked: true
+name: "Mechanical Drill"
+research: core-chip
+consumes: {
+	liquid: {
+		liquid: water
+		amount: 0.05
+		optional: true
+		booster: true
+	}
+}
