@@ -6,9 +6,10 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.2
 atmosphereColor: e38f5baa
 iconColor: e38f5b
+visible: true
 orbitRadius: 7
 orbitOffset: 110
-accessible: true
+accessible: false
 allowLaunchToNumbered: false
 sectorSize: 2
 totalRadius: 1.8

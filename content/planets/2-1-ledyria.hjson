@@ -23,7 +23,7 @@ cloudMesh: {
 	scl: 1
 	thresh: 0.4
 }
-alwaysUnlocked: true
+alwaysUnlocked: false
 sectorSize: 1
 orbitSpacing: 12
 radius: 1
