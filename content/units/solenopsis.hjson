@@ -1,0 +1,50 @@
+type: legs
+name: "Solenopsis"
+description: "6-legged support unit."
+health: 640
+armor: 9
+hitSize: 8
+speed: 1.25
+legCount: 6
+legLength: 28
+legForwardScl: 0.8
+legMoveSpace: 2
+legBaseOffset: 2
+hovering: true
+shadowElevation: 0.4
+weapons: [
+	{
+		name: "solenopsis-weapon"
+		reload: 20
+		top: true
+		mirror: true
+		rotate: true
+		shake: 1
+		x: 3
+		y: 0
+		shootSound: missile
+		recoil: 2
+		inaccuracy: 10
+		bullet: {
+			type: MissileBulletType
+			lifetime: 40
+			homingPower: 0.08
+			weaveMag: 4
+			weaveScale: 4
+			keepVelocity: false
+			shootEffect: shootHeal
+			smokeEffect: hitLaser
+			hitEffect: hitLaser
+			despawnEffect: hitLaser
+			splashDamage: 15
+			splashDamageRadius: 5
+			damage: 15
+			speed: 4
+			backColor: ffffff
+			frontColor: ffffff
+			healPercent: 10
+			collidesTeam: true
+			collidesTiles: true
+		}
+	}
+]

@@ -1,0 +1,43 @@
+type: legs
+name: "Dorylus"
+description: "6-legged support unit."
+health: 18000
+armor: 9
+hitSize: 12
+speed: 1
+legCount: 6
+legLength: 55
+legForwardScl: 0.8
+legMoveSpace: 2
+legBaseOffset: 2
+hovering: true
+shadowElevation: 0.4
+weapons: [
+	{
+		name: "dorylus-weapon"
+		reload: 5
+		top: true
+		mirror: false
+		rotate: true
+		shake: 1
+		x: 0
+		y: 0
+		shootSound: shotgun
+		recoil: 2
+		bullet: {
+			type: ShrapnelBulletType
+			length: 240
+			damage: 160
+			width: 40
+			shootEffect: shootHeal
+			smokeEffect: hitLaser
+			hitEffect: hitLaser
+			despawnEffect: hitLaser
+			backColor: ffffff
+			frontColor: ffffff
+			healPercent: 25
+			collidesTeam: true
+			collidesTiles: true
+		}
+	}
+]

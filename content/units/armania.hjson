@@ -1,0 +1,43 @@
+type: legs
+name: "Armania"
+description: "6-legged support unit."
+health: 8200
+armor: 9
+hitSize: 8
+speed: 1.25
+legCount: 6
+legLength: 35
+legForwardScl: 0.8
+legMoveSpace: 2
+legBaseOffset: 2
+hovering: true
+shadowElevation: 0.4
+weapons: [
+	{
+		name: "solenopsis-weapon"
+		reload: 20
+		top: true
+		mirror: true
+		rotate: true
+		shake: 1
+		x: 3
+		y: 0
+		shootSound: shotgun
+		recoil: 2
+		bullet: {
+			type: ShrapnelBulletType
+			length: 260
+			damage: 130
+			width: 10
+			shootEffect: shootHeal
+			smokeEffect: hitLaser
+			hitEffect: hitLaser
+			despawnEffect: hitLaser
+			backColor: ffffff
+			frontColor: ffffff
+			healPercent: 25
+			collidesTeam: true
+			collidesTiles: true
+		}
+	}
+]

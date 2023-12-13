@@ -1,0 +1,38 @@
+type: legs
+name: "Atta"
+description: "Little 6-legged support unit."
+health: 120
+armor: 1
+hitSize: 8
+speed: 0.75
+legCount: 6
+legLength: 13
+legForwardScl: 0.8
+legMoveSpace: 2
+legBaseOffset: 2
+hovering: true
+shadowElevation: 0.3
+weapons: [
+	{
+		name: "atta-weapon"
+		reload: 20
+		top: true
+		mirror: false
+		rotate: true
+		shake: 1
+		x: 0
+		y: 0
+		shootSound: lasershoot
+		recoil: 2
+		bullet: {
+			type: LaserBoltBulletType
+			lifetime: 30
+			damage: 20
+			speed: 4
+			backColor: ffffff
+			frontColor: ffffff
+			healPercent: 5
+			collidesTeam: true
+		}
+	}
+]
